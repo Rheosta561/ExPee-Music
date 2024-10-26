@@ -4,7 +4,7 @@ import Logo from "./Logo";
 import Login from "./assets/components/Login";
 import PromoGrid from "./assets/components/PromoGrid";
 import Footer from "./assets/components/Footer";
-import HomePromo from "./assets/components/homepromo";
+import HomePromo from "./assets/components/HomePromo";
 import CommentGrid from "./assets/components/CommentGrid";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";

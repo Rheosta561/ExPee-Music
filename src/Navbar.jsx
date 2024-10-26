@@ -7,7 +7,7 @@ function Navbar() {
 
   return (
     <div>
-      <nav className="text-slate-200 w-full h-12 p-1 bg-blend-normal bg-zinc-950 fixed bg-opacity-90 flex justify-between items-center px-4 md:px-8 transition-all">
+      <nav className="text-slate-200 w-full h-12 p-1 bg-blend-normal bg-zinc-950 fixed bg-opacity-90 z-50 flex justify-between items-center px-4 md:px-8 transition-all">
         {/* Logo for larger screens */}
         <img src={logo} alt="Logo" className="h-8 md:h-10 lg:h-12 hidden md:block" />
         
