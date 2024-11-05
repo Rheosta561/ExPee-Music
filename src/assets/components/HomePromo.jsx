@@ -49,7 +49,7 @@ function HomePromo(props) {
         </div>
         <div className='border-gray-300 flex'>
           <div className='mx-auto w-1/3 md:w-1/5 h-10 rounded-3xl text-center bg-emerald-700 transition hover:bg-emerald-950 flex text-white items-center justify-center '>
-            <Link to="/" className='my-1'>{props.link}</Link>
+            <Link to="/dashboard" className='my-1'>{props.link}</Link>
           </div>
         </div>
       </div>

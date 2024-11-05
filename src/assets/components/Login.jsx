@@ -19,20 +19,19 @@ function SignInForm() {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log('Form submitted:', formData);
-    // Add additional form handling logic here
   };
 
   return (
     <section className="min-h-screen flex items-center justify-center px-6 py-8">
       <div className="w-full max-w-md bg-emerald-950 rounded-lg shadow dark:bg-emerald-950 dark:border-emerald-950">
         <div className="p-6 space-y-6">
-          <a href="#" className="flex items-center mb-6 text-2xl font-semibold text-gray-900 dark:text-white">
+          <a href="#" className="flex items-center mb-6 text-2xl font-semibold text-gray-50 dark:text-white">
             <img className=" scale-150 mx-auto h-8 " src={Logo} alt="logo" />
           </a>
-          <h1 className="text-2xl font-bold text-gray-900  dark:text-white ">Sign in to your account</h1>
+          <h1 className="text-2xl font-bold  text-white ">Sign in to your account</h1>
           <form className="space-y-6" onSubmit={handleSubmit}>
             <div>
-              <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
+              <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-50 dark:text-white">
                 Your email
               </label>
               <input
@@ -47,7 +46,7 @@ function SignInForm() {
               />
             </div>
             <div>
-              <label htmlFor="password" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
+              <label htmlFor="password" className="block mb-2 text-sm font-medium text-gray-50 dark:text-white">
                 Password
               </label>
               <input

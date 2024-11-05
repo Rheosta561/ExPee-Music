@@ -12,6 +12,8 @@ import Record from "../src/Record.png"
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import FeatureTray from "./assets/components/FeatureTray";
+import ProfileHome from "./assets/screens/ProfileHome";
+import Sidebar from "./assets/components/Sidebar";
 
 
 const router = createBrowserRouter([
@@ -49,6 +51,16 @@ const router = createBrowserRouter([
       </div>
     ),
   },
+  {path:"/dashboard",
+    element:(
+      <div className="flex flex-row  ">
+        <Sidebar/>
+        <ProfileHome/>
+      </div>
+
+    ),
+
+  }
 ]);
 
 function App() {
