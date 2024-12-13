@@ -35,7 +35,7 @@ function ProfileHome() {
   return (
     <div className="overflow-x-hidden w-screen">
       {/* ProfileBar */}
-      <div className="fixed top-0 left-0 w-full z-50 bg-white shadow-md">
+      <div className="fixed left-0 w-full z-50 bg-white shadow-md ">
         <ProfileBar />
       </div>
 
