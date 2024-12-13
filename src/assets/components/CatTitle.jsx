@@ -4,8 +4,8 @@ function CatTitle(props) {
   return (
     <div className='md:w-2/3 md:mx-auto'>
         <div className='text-emerald-50 text-6xl font-bold'>
-        CatTitle{props.title}</div>
-        <p className='text-gray-400 text-xs  md:text-sm'>{props.desc}Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias distinctio labore maiores sequi repellat voluptatem. Perferendis velit neque molestiae soluta cumque? Vel, et?</p>
+        {props.title}</div>
+        <p className='text-gray-400 text-xs  md:text-sm'>{props.desc}</p>
     </div>
     
   )
