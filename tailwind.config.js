@@ -15,6 +15,9 @@ export default {
           '100%': { transform: 'translateX(-100%)' },
         },
       },
+      fontFamily: {
+        staatliches: ['"Staatliches"', 'serif'], // Add your custom font here
+      },
     },
   },
   plugins: [
